@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keyword" content="Html, Tailwindcss">
+    <meta name="description" content="Track your AI">
+    <meta author="Asif Hassan">
+    <title>Ticker AI</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="short cut icon " href="assets/tickerAI-logo 1.png">
+</head>
+<body>   
+    <!-- Header Section -->
+   <header class="md:mx-14 md:py-4 py-2 px-2 ">
+    <nav class="container mx-auto flex items-center justify-between  ">
+         <div class="flex items-center gap-1 md:gap-3  ">
+            <img  src="assets/tickerAI-logo 1.png" alt="" class="w-10 md:w-fit">
+            <p class="text-[8px] md:text-xs">A Mark Cuban Company <br> AI-based Financial News Aggregator</p>
+        </div>
+        <div class="flex items-center gap-2  md:gap-7 ">
+            <a href="news.html">
+                <button class="bg-[#5677AC] md:text-base text-xs md:py-3 py-1 md:px-6 px-2 rounded-md text-white font-semibold hover:bg-[#42669e] transition hover:scale-105 hover:translate-y-1">Personalize News</button>
+            </a>
+            <div class="text-[#e3eaf426] bg-[#5577AC] md:text-2xl text-lg font-bold size-9 rounded-full flex items-center justify-center hover:scale-105 transition-all cursor-pointer">
+                IK
+            </div>
+              <!-- nav DARK and LIGHT mode btn -->
+            <button><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
+              </svg>  
+              </button>
+        </div>    
+    </nav>
+   </header>
+
+   <!-- Banner Section -->
+    <section class="flex flex-col items-center md:px-0 px-4 md:py-32 py-20 bg-[url('https://images.pexels.com/photos/8370752/pexels-photo-8370752.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')] bg-no-repeat bg-cover ">
+        <h1 class="md:text-7xl text-3xl font-bold italic text-white">ticker AI</h1>
+        <div class="flex bg-white md:w-[520px] w-full md:p-4 p-2 items-center rounded gap-4 md:mt-10 mt-4 hover:ring ">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+              </svg>
+            <input type="text" name="search" class="w-full outline-none" placeholder="Search any market topic ">
+        </div>
+        <p class="text-xs text-green-500 md:pt-4 pt-2  ">There are 6 articles available for your preferences </p>
+    </section>
+
+    <!-- News Section -->
+     <section class="container grid grid-cols-12 mx-auto mb-8 gap-8 md:px-0 px-4 pt-10">
+        <!-- All new Section -->
+        <section class="md:col-span-9 col-span-12 md:ml-8">
+           <div class="flex items-center justify-between md:pb-2.5 border-b border-black md:border-b-[3px]">
+            <h3 class="md:text-2xl text-lg font-semibold text-[#333333]">All NEWS</h3>
+            <div class="flex items-center gap-2 ">
+                <p>Filter by</p>
+                <h4 class="font-bold">Stocks</h4>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 13.5 12 21m0 0-7.5-7.5M12 21V3" />
+                  </svg>   
+            </div>
+           </div>
+
+           <h2 class="text-[#333333] md:text-2xl text-xl font-semibold md:pt-8 pt-4 pb-4 ">Individual Stocks</h2>
+
+           <!-- card section  -->
+            <div class="flex flex-col md:flex-row md:p-4 p-2 items-center gap-6 border border-[#DDE2E5] mt-5 hover:scale-105 transition-all duration-300 cursor-pointer ">
+                <img src="assets/Rectangle 6.png" alt="" class="w-full h-44 object-cover md:h-fit md:size-[150px]">
+                <div class="md:space-y-4 space-y-3 ">
+                    <div class="flex items-center gap-2 ">
+                        <span class="bg-black text-white text-xs px-1.5 py-0.5 rounded-sm ">DOW JONES</span>
+                        <span class="bg-black text-white text-xs px-1.5 py-0.5 rounded-sm ">NASDAQ</span>
+                        <span class="bg-black text-white text-xs px-1.5 py-0.5 rounded-sm ">S & P 500</span>
+                    </div>
+                    
+                
+                <div>
+                    <h3 class="md:text-lg font-semibold text-[#333333] pb-1">Nzd/usd forex technical analysis - traders will be monitoring fed for future rate hike clues</h3>
+                    <p class="md:text-base text-sm text-[#616161]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet...</p>
+                </div>
+                <div class="flex items-center gap-3 md:gap-5 md:text-base text-sm">
+                    <p class="text-[#616161]">06 September 2022</p>
+                    <p>By <span class="text-[#5677AC] font-semibold cursor-pointer ">Shouvik Nath</span></p>
+                </div>
+                </div>
+            </div> 
+           <!-- Card section 1/2 -->
+           <div class="flex flex-col md:flex-row md:p-4 p-2 items-center gap-6 border border-[#DDE2E5] mt-5 hover:scale-105 transition-all duration-300 cursor-pointer">
+            <img src="assets/Rectangle 7.png" alt="" class="w-full h-44 object-cover md:h-fit md:size-[150px]">
+            <div class="md:space-y-4 space-y-3 ">
+                <div class="flex items-center gap-2 ">
+                    <span class="bg-black text-white text-xs px-1.5 py-0.5 rounded-sm ">DOW JONES</span>
+                    <span class="bg-black text-white text-xs px-1.5 py-0.5 rounded-sm ">NASDAQ</span>
+                    <span class="bg-black text-white text-xs px-1.5 py-0.5 rounded-sm ">S & P 500</span>
+                </div>
+                
+            
+            <div>
+                <h3 class="md:text-lg font-semibold text-[#333333] pb-1">Rupee inches 5 paise higher to 77.99 against us dollar in early trade </h3>
+                <p class="md:text-base text-sm text-[#616161]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet...</p>
+            </div>
+            <div class="flex items-center gap-3 md:gap-5 md:text-base text-sm">
+                <p class="text-[#616161]">06 September 2022</p>
+                <p>By <span class="text-[#5677AC] font-semibold cursor-pointer ">AMADO</span></p>
+            </div>
+            </div>
+        </div> 
+<!-- card section 1/3 -->
+<div class="flex flex-col md:flex-row md:p-4 p-2 items-center gap-6 border border-[#DDE2E5] mt-5 hover:scale-105 transition-all duration-300 cursor-pointer ">
+    <img src="assets/Rectangle 8.png" alt="" class="w-full h-44 object-cover md:h-fit md:size-[150px]">
+    <div class="md:space-y-4 space-y-3 ">
+        <div class="flex items-center gap-2 ">
+            <span class="bg-black text-white text-xs px-1.5 py-0.5 rounded-sm ">WALL STREET</span>
+            <span class="bg-black text-white text-xs px-1.5 py-0.5 rounded-sm ">ANALYST COVERAGE</span>
+            <span class="bg-black text-white text-xs px-1.5 py-0.5 rounded-sm ">S & P 500</span>
+        </div>
+        
+    
+    <div>
+        <h3 class="md:text-lg font-semibold text-[#333333] pb-1">Rupee inches 5 paise higher to 77.99 against us dollar in early trade</h3>
+        <p class="md:text-base text-sm text-[#616161]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet...</p>
+    </div>
+    <div class="flex items-center gap-3 md:gap-5 md:text-base text-sm">
+        <p class="text-[#616161]">06 September 2022</p>
+        <p>By <span class="text-[#5677AC] font-semibold cursor-pointer ">Shouvik Nath</span></p>
+    </div>
+    </div>
+</div> <br> <br>
+
+<!-- Stock Sectors  -->
+<h3 class="md:text-2xl text-lg font-semibold text-[#333333]">Stock Sectors</h3>
+    
+<div class="flex flex-col md:flex-row md:p-4 p-2 items-center gap-6 border border-[#DDE2E5] mt-5 hover:scale-105 transition-all duration-300 cursor-pointer ">
+    <img src="assets/Rectangle 6 (1).png" alt="" class="w-full h-44 object-cover md:h-fit md:size-[150px]">
+    <div class="md:space-y-4 space-y-3 ">
+        <div class="flex items-center gap-2 ">
+            <span class="bg-black text-white text-xs px-1.5 py-0.5 rounded-sm ">DOW JONES</span>
+            <span class="bg-black text-white text-xs px-1.5 py-0.5 rounded-sm ">NASDAQ</span>
+            <span class="bg-black text-white text-xs px-1.5 py-0.5 rounded-sm ">S & P 500</span>
+        </div>
+        
+    
+    <div>
+        <h3 class="md:text-lg font-semibold text-[#333333] pb-1">Nzd/usd forex technical analysis - traders will be monitoring fed for future rate hike clues</h3>
+        <p class="md:text-base text-sm text-[#616161]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet...</p>
+    </div>
+    <div class="flex items-center gap-3 md:gap-5 md:text-base text-sm">
+        <p class="text-[#616161]">06 September 2022</p>
+        <p>By <span class="text-[#5677AC] font-semibold cursor-pointer ">SHOWVIK NATH</span></p>
+    </div>
+    </div>
+</div> 
+
+<!-- Stock Sector 1/2 -->
+
+<div class="flex flex-col md:flex-row md:p-4 p-2 items-center gap-6 border border-[#DDE2E5] mt-5 hover:scale-105 transition-all duration-300 cursor-pointer ">
+    <img src="assets/Rectangle 7 (1).png" alt="" class="w-full h-44 object-cover md:h-fit md:size-[150px]">
+    <div class="md:space-y-4 space-y-3 ">
+        <div class="flex items-center gap-2 ">
+            <span class="bg-black text-white text-xs px-1.5 py-0.5 rounded-sm ">DOW JONES</span>
+            <span class="bg-black text-white text-xs px-1.5 py-0.5 rounded-sm ">NASDAQ</span>
+            <span class="bg-black text-white text-xs px-1.5 py-0.5 rounded-sm ">S & P 500</span>
+        </div>
+        
+    
+    <div>
+        <h3 class="md:text-lg font-semibold text-[#333333] pb-1">Rupee inches 5 paise higher to 77.99 against us dollar in early trade</h3>
+        <p class="md:text-base text-sm text-[#616161]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet...</p>
+    </div>
+    <div class="flex items-center gap-3 md:gap-5 md:text-base text-sm">
+        <p class="text-[#616161]">06 September 2022</p>
+        <p>By <span class="text-[#5677AC] font-semibold cursor-pointer ">AMADO</span></p>
+    </div>
+    </div>
+</div> <br> <br> 
+
+
+<!-- Stock Market Topic -->
+
+<h3 class="md:text-2xl text-lg font-semibold text-[#333333]">Stock Market Topic</h3>
+    
+<div class="flex flex-col md:flex-row md:p-4 p-2 items-center gap-6 border border-[#DDE2E5] mt-5 hover:scale-105 transition-all duration-300 cursor-pointer ">
+    <img src="assets/Rectangle 6 (2).png" alt="" class="w-full h-44 object-cover md:h-fit md:size-[150px]">
+    <div class="md:space-y-4 space-y-3 ">
+        <div class="flex items-center gap-2 ">
+            <span class="bg-black text-white text-xs px-1.5 py-0.5 rounded-sm ">DOW JONES</span>
+            <span class="bg-black text-white text-xs px-1.5 py-0.5 rounded-sm ">NASDAQ</span>
+            <span class="bg-black text-white text-xs px-1.5 py-0.5 rounded-sm ">S & P 500</span>
+        </div>
+        
+    
+    <div>
+        <h3 class="md:text-lg font-semibold text-[#333333] pb-1">Rupee inches 5 paise higher to 77.99 against us dollar in early trade</h3>
+        <p class="md:text-base text-sm text-[#616161]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet...</p>
+    </div>
+    <div class="flex items-center gap-3 md:gap-5 md:text-base text-sm">
+        <p class="text-[#616161]">06 September 2022</p>
+        <p>By <span class="text-[#5677AC] font-semibold cursor-pointer ">SHOWVIK NATH</span></p>
+    </div>
+    </div>
+</div> 
+        </section>
+        
+        <!-- features section -->
+        <section class="md:col-span-3 col-span-12 md:mr-8">
+         <div class="flex items-center justify-between pb-1 md:pb-2.5 border-b md:border-b-[3px] border-black">
+            <h3 class="md:text-2xl text-lg font-semibold text-[#333333] uppercase ">Featured</h3>
+         </div>
+
+         <h2 class="text-[#333333] md:text-2xl text-xl font-semibold md:pt-8 pt-4 pb-4 ">Daily Rundowns</h2>
+
+         <!-- Tag section  -->
+          <div class="border border-[#F5F5F5] p-3 md:p-5 space-y-3 md:space-y-5 ">
+            <div>
+                <h3 class="font-medium pb-2 ">Earning:</h3>
+                <div class=" ">
+                    <span class="bg-[#5677AC26] text-[#000000] text-xs md:text-small px-1.5 py-0.5 rounded-sm hover:bg-black hover:text-white transition-all cursor-pointer ">CSAN</span>
+                    <span class="bg-[#5677AC26] text-[#000000] text-xs md:text-small px-1.5 py-0.5 rounded-sm hover:bg-black hover:text-white transition-all cursor-pointer ">ALYA</span>
+                    <span class="bg-[#5677AC26] text-[#000000] text-xs md:text-small px-1.5 py-0.5 rounded-sm hover:bg-black hover:text-white transition-all cursor-pointer ">GATO</span>
+                    <span class="bg-[#5677AC26] text-[#000000] text-xs md:text-small px-1.5 py-0.5 rounded-sm hover:bg-black hover:text-white transition-all cursor-pointer ">CSS</span>
+                    <span class="bg-[#5677AC26] text-[#000000] text-xs md:text-small px-1.5 py-0.5 rounded-sm hover:bg-black hover:text-white transition-all cursor-pointer ">VZLA</span>
+                    <span class="bg-[#5677AC26] text-[#000000] text-xs md:text-small px-1.5 py-0.5 rounded-sm hover:bg-black hover:text-white transition-all cursor-pointer ">MFH</span>
+
+                </div>
+            </div>
+
+<!-- tag section Movers: -->
+            <div>
+                <h3 class="font-medium pb-2 ">Movers:</h3>
+                <div class=" ">
+                    <span class="bg-[#5677AC26] text-[#000000] text-xs md:text-small px-1.5 py-0.5 rounded-sm hover:bg-black hover:text-white transition-all cursor-pointer ">REV</span>
+                    <span class="bg-[#5677AC26] text-[#000000] text-xs md:text-small px-1.5 py-0.5 rounded-sm hover:bg-black hover:text-white transition-all cursor-pointer ">PETV</span>
+                    <span class="bg-[#5677AC26] text-[#000000] text-xs md:text-small px-1.5 py-0.5 rounded-sm hover:bg-black hover:text-white transition-all cursor-pointer ">RYTM</span>
+                    <span class="bg-[#5677AC26] text-[#000000] text-xs md:text-small px-1.5 py-0.5 rounded-sm hover:bg-black hover:text-white transition-all cursor-pointer ">SRRK</span>
+                    <span class="bg-[#5677AC26] text-[#000000] text-xs md:text-small px-1.5 py-0.5 rounded-sm hover:bg-black hover:text-white transition-all cursor-pointer ">VERA</span>
+                    <span class="bg-[#5677AC26] text-[#000000] text-xs md:text-small px-1.5 py-0.5 rounded-sm hover:bg-black hover:text-white transition-all cursor-pointer ">KZIA</span>
+                    <span class="bg-[#5677AC26] text-[#000000] text-xs md:text-small px-1.5 py-0.5 rounded-sm hover:bg-black hover:text-white transition-all cursor-pointer ">SYM</span>
+                </div>
+            </div>
+
+<!-- tag section Technicals: -->
+            <div>
+                <h3 class="font-medium pb-2 ">Technicals:</h3>
+                <div class=" ">
+                    <span class="bg-[#5677AC26] text-[#000000] text-xs md:text-small px-1.5 py-0.5 rounded-sm hover:bg-black hover:text-white transition-all cursor-pointer ">BEARISH</span>
+                    <span class="bg-[#5677AC26] text-[#000000] text-xs md:text-small px-1.5 py-0.5 rounded-sm hover:bg-black hover:text-white transition-all cursor-pointer ">REGN</span>
+                    <span class="bg-[#5677AC26] text-[#000000] text-xs md:text-small px-1.5 py-0.5 rounded-sm hover:bg-black hover:text-white transition-all cursor-pointer ">TSLA</span>
+                    <span class="bg-[#5677AC26] text-[#000000] text-xs md:text-small px-1.5 py-0.5 rounded-sm hover:bg-black hover:text-white transition-all cursor-pointer ">MCD</span>
+                    <span class="bg-[#5677AC26] text-[#000000] text-xs md:text-small px-1.5 py-0.5 rounded-sm hover:bg-black hover:text-white transition-all cursor-pointer ">BULLISH</span>
+                    <span class="bg-[#5677AC26] text-[#000000] text-xs md:text-small px-1.5 py-0.5 rounded-sm hover:bg-black hover:text-white transition-all cursor-pointer ">USO</span>
+                    <span class="bg-[#5677AC26] text-[#000000] text-xs md:text-small px-1.5 py-0.5 rounded-sm hover:bg-black hover:text-white transition-all cursor-pointer ">SEDG</span>
+                    <span class="bg-[#5677AC26] text-[#000000] text-xs md:text-small px-1.5 py-0.5 rounded-sm hover:bg-black hover:text-white transition-all cursor-pointer ">ENPH</span>
+                    <span class="bg-[#5677AC26] text-[#000000] text-xs md:text-small px-1.5 py-0.5 rounded-sm hover:bg-black hover:text-white transition-all cursor-pointer ">SHOP</span>
+                </div>
+          </div> <br>
+
+          <!-- Image gallary -->
+           <div class="pt-5 ">
+            <img src="assets/Rectangle 182.png" alt="" class="w-full object-cover">
+            <h2 class="font-medium text-[#121212] p-4 text-center ">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </h2>
+           </div>
+            <!-- imge 2 -->
+           <div class="pt-5 ">
+            <img src="assets/Rectangle 183.png" alt="" class="w-full object-cover">
+            <h2 class="font-medium text-[#121212] p-4 text-center ">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </h2>
+           </div>
+           <!-- Image 3 -->
+           <div class="pt-5 ">
+            <img src="assets/Rectangle 184.png" alt="" class="w-full object-cover">
+            <h2 class="font-medium text-[#121212] p-4 text-center ">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </h2>
+           </div>
+        </section>
+     </section>
+
+     <footer class="text-black text-center pb-5 w-full">
+        &copy; All right reserved to TickerAI -2024 
+     </footer>
+</body>
+</html>
